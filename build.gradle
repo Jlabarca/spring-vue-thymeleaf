@@ -25,7 +25,11 @@ repositories {
 
 
 dependencies {
+
 	implementation('org.springframework.boot:spring-boot-starter-thymeleaf')
 	implementation('org.springframework.boot:spring-boot-starter-web')
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
+	compile 'org.webjars.npm:vue:2.5.17'
+	compile "org.webjars:webjars-locator-core:0.36"
+
 }
